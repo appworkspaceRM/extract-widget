@@ -19,6 +19,10 @@ samples, guidance on mobile development, and a full API reference.
 
 Extract widget adalah metode pemecahan sebuah widget agar lebih efesian, optimal dan reusealble atau dapat digunakan ulang kembali. extract widget dapat dilakukan dengan fokus ke widget yang akan kita extract dengan cara refactor extract widget. extract widget memudahkan kita dalam membuat sebuah tampilan menjadi kecil - kecil seperti beberapa component yang akan kita gunakan kembali atua reuseable. extract widget sangat penting agar code kita tidak terlalu banyak dalam kondisi code yang berulang.
 
+untuk date format menggunakan intl dengan melihat dan membaca dokumentasi dari package intl pada link
+
+[faker - package flutter](https://pub.dev/packages/faker)
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:faker/faker.dart';
