@@ -88,9 +88,9 @@ class MyApp extends StatelessWidget {
 }
 
 /*
-	disini extract widget yang kita lakukan untuk membuat widget yang akan digunakan
-	di class MyApp, extract widget lebih bagus membangun constructor yang berisi properti atau field
-	yang akan digunakan di dalam extract widget agar lebih dinamis
+disini extract widget yang kita lakukan untuk membuat widget yang akan digunakan
+di class MyApp, extract widget lebih bagus membangun constructor yang berisi properti atau field
+yang akan digunakan di dalam extract widget agar lebih dinamis
 */
 class ChatItem extends StatelessWidget {
   final String? name;
@@ -137,3 +137,4 @@ class ChatItem extends StatelessWidget {
   }
 }
 ```
+![code-snapshot](https://github.com/appworkspaceRM/extract-widget/assets/135511281/0eb95168-7ffa-4d50-b822-01159f05dfba)
