@@ -23,6 +23,14 @@ untuk date format menggunakan intl dengan melihat dan membaca dokumentasi dari p
 
 [faker - package flutter](https://pub.dev/packages/faker)
 
+```bash
+$ flutter pub add faker
+```
+
+```dart
+import 'package:faker/faker.dart';
+```
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:faker/faker.dart';
